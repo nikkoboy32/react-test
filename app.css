@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*,::before,::after {padding: 0; margin: 0; box-sizing: border-box;}
+
+:root{
+    --blue: #23252C;
+    --dark-blue: #1A1B21;
+    --light-blue: #5093E2;
+    --primary-font: "Inter", sans-serif;
+}
+a {color: #fff; text-decoration: none; font-size: 14px;}
+#root {height: 100vh; width: 100%; display: flex; justify-content: center; align-items: center;}
+.main_content {padding: 10px 30px 50px; font-family: var(--primary-font); font-size: 10px; font-weight: normal;}
+.container {width: 100%; max-width: 550px; background: var(--blue); position: relative; padding: 30px 0;}
+.business_card {width: 100%; max-width: 317px; margin: 0 auto; background-color: var(--dark-blue); color: #fff; border-radius: 10px;}
+header {border-top-left-radius: 10px; border-top-right-radius: 10px; text-align: center; font-family: var(--primary-font); display: block;}
+.header_info {margin: 15px 0;}
+.header_info p {color: #F3BF99; font-size: 13px;}
+.header_info span {font-size: 10px; font-weight: 300;}
+.button_container {display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 15px auto}
+.button_container a:first-child {background: #fff; padding: 8px 30px 8px 50px; color: #374151; border-radius: 5px; font-weight: 600; position: relative;}
+.button_container a:first-child::before {content:url(../public/images/icons/email-icon.png);position: absolute; left:30px;}
+.button_container a:last-child {background: var(--light-blue); padding: 8px 20px 8px 40px; color: #fff; border-radius: 5px; font-weight: 600; position: relative;}
+.button_container a:last-child::before {content:url(../public/images/icons/linkedin-icon.png);position: absolute; left:20px; top:10px;}
+
+.main_content p {color: #DCDCDC; margin: 5px 0; font-weight: 300; line-height: 15px;}
+.interests {margin-top: 15px;}
+
+footer {min-height: 64px; background: #161619; display: flex; align-items: center; justify-content: center;}
+.social_media_icons_flex {display: flex; justify-content: center; gap: 20px;}
