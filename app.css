@@ -18,9 +18,9 @@ header {border-top-left-radius: 10px; border-top-right-radius: 10px; text-align:
 .header_info span {font-size: 10px; font-weight: 300;}
 .button_container {display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 15px auto}
 .button_container a:first-child {background: #fff; padding: 8px 30px 8px 50px; color: #374151; border-radius: 5px; font-weight: 600; position: relative;}
-.button_container a:first-child::before {content:url(../public/images/icons/email-icon.png);position: absolute; left:30px;}
+.button_container a:first-child::before {content:url(/images/icons/email-icon.png);position: absolute; left:30px;}
 .button_container a:last-child {background: var(--light-blue); padding: 8px 20px 8px 40px; color: #fff; border-radius: 5px; font-weight: 600; position: relative;}
-.button_container a:last-child::before {content:url(../public/images/icons/linkedin-icon.png);position: absolute; left:20px; top:10px;}
+.button_container a:last-child::before {content:url(/images/icons/linkedin-icon.png);position: absolute; left:20px; top:10px;}
 
 .main_content p {color: #DCDCDC; margin: 5px 0; font-weight: 300; line-height: 15px;}
 .interests {margin-top: 15px;}
